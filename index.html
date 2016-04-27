@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 6</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/leaflet.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+<div class="row">
+    <div class="col-sm-12">
+        <header>
+            <h3 id="title">Critical analysis about The potential areas that might be considered food deserts in Philadelphia.</h3>
+            <i>By Alexis Saenz</i>
+        </header>
+
+    </div>
+    <div class="col-sm-3">
+        <section id="options-map">
+        <section id="controls">
+            <form class="form" role="form">
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-tracts" checked> Philly_Tracts_2010_UTM
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                <label>
+                    <input type="checkbox" id="ch-groceries" checked> Philly_Groc_SupermktsOnly
+                </label>
+            </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-highways" checked> Highways_MidAtlantic
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-altfuels" checked> AltFuels_MidAtlantic
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-amtraklines" checked> AmtrakLines_MidAtlantic
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-amtrakstations" checked> AmtrakStations_MidAtlantic
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-midatlanticstates" checked> MidAtlanticStates_UTM
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-philaPPR" checked> Philadelphia_PPR_Park_Boundaries
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-septahighlines" checked> SEPTAGISHighspeedLines_UTM
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-septahighstations" checked> SEPTAGISHighspeedStations_UTM
+                    </label>
+                </div>
+
+            </form>
+        </section>
+            <section id="percents">
+
+
+            </section>
+        <section id="info-map">
+
+        </section>
+        </section>
+    </div>
+    <div class="col-sm-9">
+        <div id="map"> </div>
+    </div>
+</div>
+</div>
+
+</body>
+<script src="js/jquery-2.1.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/leaflet.js"></script>
+<script src="js/data.js"></script>
+<script src="js/map.js"></script>
+</html>

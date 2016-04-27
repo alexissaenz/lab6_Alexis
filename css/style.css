@@ -1,0 +1,56 @@
+#map{
+    height: 1000px;
+    width: 100%;
+}
+.img-retorno{
+    width: 600px;
+    padding:0px;
+}
+.leaflet-popup-instagram{
+    width: 700px;
+}
+header{
+    background-color: #285e8e;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.library{
+    /*width: 300px;*/
+    color: white;
+}
+.library>tbody>tr>th{
+    background-color: #1EA09A
+}
+.library>tbody>tr>td{
+    background-color: #865AAF;
+}
+#percent-1{
+    height: 20px;
+    width: 25px;
+    background-color: #00f500;
+}
+#percent-2{
+    height: 20px;
+    width: 25px;
+    background-color: #94f700;
+}
+#percent-3{
+    height: 20px;
+    width: 25px;
+    background-color: #f5f500;
+}
+#percent-4{
+    height: 20px;
+    width: 25px;
+    background-color: #fc8b00;
+}
+#percent-5{
+    height: 20px;
+    width: 25px;
+    background-color: #f50000;
+}
+#table-percents{
+    width: 200px;
+    border: 0px;
+}
